@@ -1,0 +1,28 @@
+{
+    "name" : "nulastudio/aria2",
+    "description" : "A Simple Aria2 JSON-RPC client.",
+    "license" : "MIT",
+    "author" : [
+        {
+            "name" : "LiesAuer",
+            "email" : "liesauer@hotmail.com",
+            "homepage" : "http://www.liesauer.net",
+            "role" : "Developer"
+        },
+        {
+            "name" : "fiftypercent",
+            "email" : "fifty.percent@hotmail.com",
+            "homepage" : "https://github.com/50percent",
+            "role" : "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=7.0",
+        "liesauer/simple-http-client" : "^1.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "nulastudio\\" : "src/"
+        }
+    }
+}
